@@ -1,0 +1,269 @@
+@font-face {
+	font-family: 'Lato-LightItalic';
+	src: url('../fonts/Lato-LightItalic.ttf');
+}
+@font-face {
+	font-family: 'Lato-BoldItalic';
+	src: url('../fonts/Lato-BoldItalic.ttf');
+}
+
+body {
+	line-height: 17px;
+	/*background-color: #E6EAE8;*/
+	background-image: url("../images/backgrounds/desktop.jpg");
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+
+.button1{
+	border-right: 5px;
+	width: 25%;
+	height: 4%;
+	border: none;
+	border-radius: 3px;
+	background-color: #57819c;
+	font-family: 'Lato-BoldItalic', sans-serif;
+	color: #fff;
+	text-shadow: #8dbbda 0.5px 0.5px 0px;
+	font-size: 90%;
+	position: relative;
+	outline: 0;
+	margin: 0;
+	float: right;
+	margin: 5px;
+}
+
+#div-1{
+	color:#fff;
+	font-weight: bold;
+}
+
+hr{ margin:10px;}
+
+.top_bar {
+	width: 100%;
+	min-width: 1050px;
+	height: 40px;
+	background-color: #57819c;
+	border-bottom: 0.25em solid #334c5c;
+	margin: 0 0 10px 0;
+	display: inline-flex;
+	position: fixed;
+	z-index: 10;
+}
+
+.logo a{
+	font-family: 'Lato-BoldItalic', sans-serif;
+	margin-left: 10px;
+	font-size: 30;
+	position: relative;
+	top: 9px;
+	text-shadow: #d8dee0 0.5px 0.5px 0px;
+	color: #f5f7f8;
+}
+
+
+nav {
+	float: right;
+	right: 1px;
+	position: absolute;
+	margin: 10px;
+}
+
+nav a{
+	position: relative;
+	color: #fff;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+nav a:hover {
+	border-bottom: 7px solid #76b2d8;
+	color: #fff;
+}
+
+.wrapper {
+	margin: 0 auto;
+	top: 50px;
+	position: relative;
+	padding: 0 10px;
+	width: 75%;
+	min-width: 950px;
+}
+
+
+
+
+.column {
+	background-color: #fff;
+	padding: 10px;
+	border: 1px solid #D3D3D3;
+	border-radius: 5px;
+	box-shadow: 2px 2px 1px #D3D3D3;
+	z-index: -1;
+}
+
+.user_details {
+	width: 270px;
+	margin-top: 10px;
+	float: left;
+	margin-bottom: 20px;
+}
+
+.user_details img {
+	height: 120px;
+	border-radius: 5px;
+	margin-right: 5px;
+}
+
+.user_details_left_right {
+	width: 120px;
+	display: inline-table;
+	position: absolute;
+}
+
+.main_column {
+	float:right;
+	width: 70%;
+	z-index: -1;
+	min-height: 160px;
+}
+
+.post_form {
+	width: 100%;
+}
+
+.post_form textarea {
+	width: 81%;
+	height: 60px;
+	border-radius: 3px;
+	margin-right: 5px;
+	border: 1px solid #D3D3D3;
+	font-size: 12px;
+	padding: 5px;
+}
+
+textarea:focus {
+	outline: 0;
+}
+
+.post_form input[type="submit"] {
+	width: 11%;
+	height: 60px;
+	border: none;
+	border-radius: 3px;
+	background-color: #57819c;
+	font-family: 'Lato-BoldItalic', sans-serif;
+	color: #fff;
+	text-shadow: #365264 0.5px 0.5px 0px;
+	font-size: 90%;
+	position: absolute;
+	outline: 0;
+	margin: 0;
+}
+
+.post_form input[type="submit"]:active {
+	padding: 5px 4px 4px 5px;
+}
+
+.status_post {
+	width: 96%;
+	font-size: 15px;
+	padding: 0px 5px;
+	min-height: 75px;
+}
+
+.post_profile_pic {
+	float: left;
+	margin-right: 7px;
+}
+
+.post_profile_pic img {
+	border-radius: 5px;
+}
+
+#settings_input {
+	border: 1px solid #ccc;
+    height: 20px;
+    padding: 4px 6px;
+    margin-bottom: 10px;
+	    border-radius: 4px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.settings_submit {
+	border: none;
+    padding: 7px 12px;
+	background-color: #57819c;
+    border-radius: 5px;
+    color: #fff;
+}
+
+table {
+	width: 100%;
+  }
+  
+th {
+	height: 10%;
+	padding: 5px;
+	text-align: center;
+	border-bottom: 1px solid #969090ce;
+	font-family: 'Lato-BoldItalic', sans-serif;
+  }
+td {
+	height: 5%;
+	padding: 3px;
+	text-align: center;
+	border-bottom: 1px solid #ddddddce;
+	font-family: 'Lato-Italic', sans-serif;
+  }
+
+  .clockin_box {
+	font-family: 'Lato-Italic', sans-serif;
+	align-items: center;
+	text-align: center;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #57819c;
+	border: 1px solid #344e5e;
+	border-radius: 7px;
+	font-size: 100%;
+	}
+
+h2 {
+	margin-top: revert;
+	margin-bottom: 0.5rem;
+    font-weight: 500;
+	font-family: 'Lato-BoldItalic', sans-serif;
+	color: #fff;
+	text-shadow: #8dbbda 0.5px 0.5px 0px;
+	text-align: center;
+	}
+
+ .button_clockin2{
+	border-right: 5px;
+	width: 25%;
+	height: 7%;
+	border: none;
+	border-radius: 3px;
+	background-color: #6ea3c4;
+	border-color:#486c83;
+	border: 5px;
+	font-family: 'Lato-BoldItalic', sans-serif;
+	color: #fff;
+	text-shadow: #8dbbda 0.7px 0.7px 0.2px;
+	
+	position: relative;
+}
+
+
+select[type="country_region"], input[type="place"], select[type="location"] {
+	border: 1px solid #fff;
+	width: 70%;
+	height: 30px;
+}

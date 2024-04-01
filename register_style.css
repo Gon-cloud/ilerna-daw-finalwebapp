@@ -1,0 +1,110 @@
+@font-face {
+	font-family: 'Lato-LightItalic';
+	src: url('../fonts/Lato-LightItalic.ttf');
+}
+@font-face {
+	font-family: 'Lato-BoldItalic';
+	src: url('../fonts/Lato-BoldItalic.ttf');
+}
+
+html, body {
+	height: 100%;
+	min-height: 100%;
+}
+
+form {
+	text-align: center;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+#div-1{
+	color:#fff;
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.wrapper {
+	background-image: url("../images/backgrounds/desktop.jpg");
+	background-size: 100%;
+	width: 100%;
+	height: 100%;
+	min-width: 950px;
+
+}
+
+.login_box {
+	font-family: 'Lato-LightItalic', sans-serif;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	top: 7%;
+	width: 35%;
+	background-color: #57819c;
+	border: 1px solid #344e5e;
+	border-radius: 7px;
+	padding: 5px;
+	opacity: 0.98;
+}
+
+.login_header {
+	font-family: 'Lato-LightItalic', sans-serif;
+	width: 100%;
+	height: 90px;
+	background-color: #57819c;
+	color: #fff;
+	text-align: center;
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
+}
+
+.login_header h1 {
+	font-family: 'Lato-BoldItalic', sans-serif;
+	margin-top: 0;
+	margin-bottom: 0;
+	color: #fff;
+	text-shadow: #365468 0.5px 0.5px 0px;
+	font-size: 250%;
+}
+
+input[type="submit"] {
+	background-color: #57819c;
+	border: 1px solid #57819c;
+	border-radius: 3px;
+	margin: 5px 0 10px 0;
+	padding: 5px 10px 5px 10px;
+	color: #fff;
+	text-shadow: #545657 0.5px 0.5px 0px;
+	font-family: 'Lato-BoldItalic', sans-serif;
+	font-size: 100%;
+}
+
+
+
+input[type="text"], input[type="email"], input[type="password"] {
+	border: 1px solid #e5e5e5;
+	margin-top: 5px;
+	width: 70%;
+	height: 35px;
+	margin-bottom: 10px;
+	padding-left: 5px;
+}
+
+input[type="text"]:hover, input[type="email"]:hover, input[type="password"]:hover {
+	border-color: #545657;
+}
+
+#second {
+	display: none;
+}
+
+
+
+
